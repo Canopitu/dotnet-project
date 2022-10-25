@@ -3,8 +3,8 @@ services:
   csharp:
     build:
       context: .
-    container_name: csharp
-    image: aimvector/csharp:1.0.0
+    container_name: dot-net
+    image: bharathsharath/dot-net
     ports:
     - 5000:5000
     volumes:
